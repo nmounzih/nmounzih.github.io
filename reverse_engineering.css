@@ -1,0 +1,59 @@
+a:hover{
+  color: white;
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+a:visited{
+  color: gray;
+}
+
+#header{
+  color: #fdfafa;
+  background-color: #b40401;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 15px
+}
+
+#breaking{
+  color: #fdfafa;
+  background-color: #b40401;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#headlines{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 17px;
+}
+
+h1{
+  color: black;
+  background-color: #ffffff;
+
+}
+
+#categories{
+  background-color: #d2d3d4;
+  font-size: 15px;
+}
+
+table{
+  width: 1275px;
+  background-color: #ffffff;
+  color: #2e2e2e;
+  font-size: 15px;
+  margin: 0px 0px 0px 0px;
+}
+
+body table  tr  td  p{
+  font-size: 15px;
+  font-family: Helvetica;
+  text-decoration: overline;
+}
