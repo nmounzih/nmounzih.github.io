@@ -6,8 +6,9 @@
 }
 
 .background{
-  background-color: #b9d8f7;
+  background: rgba(171, 208, 246, 0.87);
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   position: relative;
   min-height:650px;
@@ -15,15 +16,9 @@
   width: 72%;
 }
 
-#bio{
-  margin-top: 6%;
-}
-
-#welcome{
-  text-align: center;
-  font-size: 40px;
-  font-family: Shadows Into Light;
-  font-weight: lighter;
+.topHalf{
+  display: flex;
+  flex-direction: row;
 }
 
 #actualPic{
@@ -33,6 +28,19 @@
   height: 325px;
   width: 325px;
 }
+
+#bio{
+  margin-top: 6%;
+}
+
+#welcome{
+  text-align: center;
+  color: #2d6fd8;
+  font-size: 40px;
+  font-family: Shadows Into Light;
+  font-weight: lighter;
+}
+
 
 p {
   font-family: sans-serif;
@@ -63,14 +71,40 @@ p {
   padding-left: 7px;
 }
 
+.bottomHalf{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .projects{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #questionBox{
-  display: flex;
-  align-self: flex-end;
-  height: 80%;
-  width: 80%;
+  border: 1px solid #2d6fd8;
+  margin-right: : 30%;
+  padding-right: : 30%;
+  font-family: sans-serif;
+  color: #2d6fd8;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#masterpeace{
+  border: 1px solid #2d6fd8;
+  font-family: sans-serif;
+  color: #2d6fd8;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#craigslist{
+  border: 1px solid #2d6fd8;
+  font-family: sans-serif;
+  color: #2d6fd8;
+  font-size: 25px;
+  font-weight: lighter;
 }
