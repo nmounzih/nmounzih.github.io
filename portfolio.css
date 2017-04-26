@@ -1,0 +1,76 @@
+.citySkyline{
+  background: url(http://imgur.com/kvmxwmP.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.background{
+  background-color: #b9d8f7;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  min-height:650px;
+  min-width: 650px;
+  width: 72%;
+}
+
+#bio{
+  margin-top: 6%;
+}
+
+#welcome{
+  text-align: center;
+  font-size: 40px;
+  font-family: Shadows Into Light;
+  font-weight: lighter;
+}
+
+#actualPic{
+  position: relative;
+  border-radius: 50%;
+  padding: 40px;
+  height: 325px;
+  width: 325px;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: lighter;
+
+}
+
+#socials{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#linkedIn{
+  margin: 0 auto;
+  height: 74px;
+  width: 74px;
+}
+
+#gitHub{
+  height: 45px;
+  width: 45px;
+}
+
+#email{
+  height: 67px;
+  width: 67px;
+  padding-left: 7px;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#questionBox{
+  display: flex;
+  align-self: flex-end;
+  height: 80%;
+  width: 80%;
+}
