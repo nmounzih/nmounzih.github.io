@@ -1,2 +1,8 @@
 # nmounzih.github.io
-This is a copy of CNN's homepage from Monday afternoon, March 13, 2017. Three of the links are active. This was a practice using HTML and CSS.
+
+This is my portfolio site. Currently under construction.
+
+
+## Acknowledgments
+
+* Background photo of Bangkok comes from  https://matadornetwork.com/trips/40-worlds-impressive-skylines/2/
