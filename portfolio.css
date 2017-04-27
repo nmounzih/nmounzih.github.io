@@ -30,14 +30,14 @@
 }
 
 #bio{
-  margin-top: 6%;
+  /*margin-top: 2%;*/
 }
 
 #welcome{
   text-align: center;
   color: #2d6fd8;
   font-size: 40px;
-  font-family: Shadows Into Light;
+  font-family: Shadows Into Light, courier, sans-serif;
   font-weight: lighter;
 }
 
@@ -107,4 +107,35 @@ p {
   color: #2d6fd8;
   font-size: 25px;
   font-weight: lighter;
+}
+
+a {
+  font-size: 30px;
+  font-family: courier;
+  text-decoration: none;
+}
+
+a:active{
+  color: #2d6fd8;
+}
+
+button {
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid #2d6fd8;
+  font-size: 30px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button:visited{
+  color: #2d6fd8;
 }
