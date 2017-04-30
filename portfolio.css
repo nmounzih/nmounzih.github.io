@@ -36,6 +36,7 @@
   font-size: 60px;
   font-family: Shadows Into Light, courier, sans-serif;
   font-weight: lighter;
+  margin-bottom: -5%;
 }
 
 
@@ -46,7 +47,7 @@ p {
 }
 
 #socials{
-  /*margin-top: -5%;*/
+  margin-top: -20%;
   display:flex;
   align-items: center;
   justify-content: center;
