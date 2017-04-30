@@ -29,9 +29,6 @@
   width: 325px;
 }
 
-#bio{
-  /*margin-top: 2%;*/
-}
 
 #welcome{
   text-align: center;
@@ -49,6 +46,7 @@ p {
 }
 
 #socials{
+  margin-top: -10%;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -56,24 +54,27 @@ p {
 
 #linkedIn{
   margin: 0 auto;
-  height: 74px;
-  width: 74px;
+  height: 56px;
+  width: 56px;
 }
 
 #gitHub{
-  height: 45px;
-  width: 45px;
+  height: 35px;
+  width: 35px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 #email{
-  height: 67px;
-  width: 67px;
+  height: 49px;
+  width: 49px;
   padding-left: 7px;
 }
 
 .bottomHalf{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -81,32 +82,61 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 20%;
+  align-content: space-between;
+}
+
+#resume{
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+#projectsHeader{
+  font-family: Pathway Gothic One, courier, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #e8eaed;
+  font-weight: lighter;
+  margin-left: -150%;
+  margin-right: -150%;
+  /*padding-top: 10%;*/
+  padding-bottom: 25%;
 }
 
 #questionBox{
-  border: 1px solid #2d6fd8;
-  margin-right: : 30%;
-  padding-right: : 30%;
+  border-top: 2px solid #e8eaed;
   font-family: sans-serif;
   color: #2d6fd8;
   font-size: 25px;
   font-weight: lighter;
+  margin-left: -150%;
+  margin-right: -150%;
+  padding-top: 50%;
+  padding-bottom: 50%;
 }
 
 #masterpeace{
-  border: 1px solid #2d6fd8;
+  border-top: 2px solid #e8eaed;
   font-family: sans-serif;
   color: #2d6fd8;
   font-size: 25px;
   font-weight: lighter;
+  margin-left: -150%;
+  margin-right: -150%;
+  padding-top: 50%;
+  padding-bottom: 50%;
 }
 
 #craigslist{
-  border: 1px solid #2d6fd8;
+  border-top: 2px solid #e8eaed;
   font-family: sans-serif;
   color: #2d6fd8;
   font-size: 25px;
   font-weight: lighter;
+  margin-left: -150%;
+  margin-right: -150%;
+  padding-top: 50%;
+  padding-bottom: 50%;
 }
 
 a {
