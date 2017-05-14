@@ -1,5 +1,5 @@
 .citySkyline{
-  background: url(http://imgur.com/kvmxwmP.jpg);
+  background: url(http://i.imgur.com/HG3MOvt.jpg);
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -142,7 +142,7 @@ p {
 a {
   font-size: 30px;
   color: #97b8ed;
-  font-family: courier;
+  font-family: Shadows Into Light, courier, sans-serif;
   text-decoration: none;
 }
 
