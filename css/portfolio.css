@@ -5,17 +5,32 @@
   background-attachment: fixed;
 }
 
+#intro{
+  /*border: 0.5px solid gray;*/
+  background-color: #f6f6f6;
+  opacity: 0.6;
+  width: 40%;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 15%;
+  margin-bottom: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .background{
   /*background: rgba(171, 208, 246, 0.87);*/
   background-color: #f6f6f6;
-  opacity: 0.85;
+  /*opacity: 0.85;*/
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   position: relative;
-  min-height:800px;
+  min-height: 50%;
   min-width: 650px;
-  width: 72%;
+  width: 100%;
 }
 
 .topHalf{
@@ -25,6 +40,7 @@
 
 #actualPic{
   position: relative;
+  opacity: 1.0;
   border-radius: 50%;
   padding: 40px;
   height: 325px;
@@ -36,10 +52,17 @@
   text-align: center;
   color: #5886a6;
   font-size: 60px;
-  font-family: Shadows Into Light, courier, sans-serif;
+  font-family: Shadows Into Light, Helvetica, sans-serif;
   font-weight: lighter;
 }
 
+#backend{
+  color: #5886a6;
+  margin-top: -2%;
+  font-size: 22px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+}
 
 p {
   font-family: sans-serif;
@@ -48,7 +71,7 @@ p {
 }
 
 #socials{
-  margin-top: -10%;
+  margin-top: 5%;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -75,6 +98,8 @@ p {
 
 .bottomHalf{
   display: flex;
+  background-color: white;
+  opacity: 0.8;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -90,7 +115,8 @@ p {
 
 #resume{
   margin-bottom: 5%;
-  margin-top: 2%;
+  margin-top: 4%;
+  margin-left: 1%;
 }
 
 #projectsHeader{
@@ -142,21 +168,24 @@ p {
 }
 
 a {
-  font-size: 30px;
-  color: #5886a6;
+  font-size: 20px;
+  /*color: #5886a6;*/
+  color: white;
   font-family: Shadows Into Light, sans-serif, courier;
   text-decoration: none;
+  font-weight: lighter;
 }
 
 a:active{
-  color: #8fcaea;
+  /*color: #8fcaea;*/
+  color: white;
 }
 
 button {
-  border-radius: 8px;
-  background-color: white;
-  border: 1px solid #97b8ed;
-  font-size: 30px;
+  border-radius: 4px;
+  background-color: #6499be;
+  /*border: 1px solid #97b8ed;*/
+  font-size: 20px;
 }
 
 button:hover {
@@ -164,11 +193,11 @@ button:hover {
 }
 
 button:active {
-  background-color: #d0dce2;
+  /*background-color: #d0dce2;*/
   /*box-shadow: 0 5px #666;
   transform: translateY(4px);*/
 }
 
 button:visited{
-  color: #2d6fd8;
+  color: #6499be;
 }
