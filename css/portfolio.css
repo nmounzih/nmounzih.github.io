@@ -99,19 +99,20 @@ p {
 .bottomHalf{
   display: flex;
   background-color: white;
-  opacity: 0.8;
-  flex-direction: column;
+  /*opacity: 0.8; Opacity not working because wont override .background*/
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-
+/*
 .projects{
   display: flex;
   flex-direction: row;
+  width: 100%;
   justify-content: space-around;
   margin: 20%;
   align-content: space-between;
-}
+}*/
 
 #resume{
   margin-bottom: 5%;
@@ -119,59 +120,59 @@ p {
   margin-left: 1%;
 }
 
-#projectsHeader{
-  font-family: Pathway Gothic One, sans-serif, courier;
+.header{
+  font-family: Pathway Gothic One, sans-serif, Verdana, Helvetica;
   font-size: 40px;
   font-weight: bold;
-  color: #e8eaed;
+  color: #5886a6;
   font-weight: lighter;
-  margin-left: -150%;
-  margin-right: -150%;
+  /*margin-left: -150%;
+  margin-right: -150%;*/
   /*padding-top: 10%;*/
-  padding-bottom: 25%;
+  /*padding-bottom: 25%;*/
 }
 
 #questionBox{
   border-top: 2px solid #e8eaed;
-  font-family: sans-serif;
-  color: #2d6fd8;
+  font-family: sans-serif, serif;
+  color: #5886a6;
   font-size: 25px;
   font-weight: lighter;
-  margin-left: -150%;
+  /*margin-left: -150%;
   margin-right: -150%;
   padding-top: 50%;
-  padding-bottom: 50%;
+  padding-bottom: 50%;*/
 }
 
 #masterpeace{
   border-top: 2px solid #e8eaed;
-  font-family: sans-serif;
-  color: #2d6fd8;
+  font-family: sans-serif, serif;
+  color: #5886a6;
   font-size: 25px;
   font-weight: lighter;
-  margin-left: -150%;
+  /*margin-left: -150%;
   margin-right: -150%;
   padding-top: 50%;
-  padding-bottom: 50%;
+  padding-bottom: 50%;*/
 }
 
 #craigslist{
   border-top: 2px solid #e8eaed;
-  font-family: sans-serif;
-  color: #2d6fd8;
+  font-family: sans-serif, serif;
+  color: #5886a6;
   font-size: 25px;
   font-weight: lighter;
-  margin-left: -150%;
-  margin-right: -150%;
-  padding-top: 50%;
-  padding-bottom: 50%;
+  /*margin-left: -150%;
+  margin-right: -150%;*/
+  /*padding-top: 50%;
+  padding-bottom: 50%;*/
 }
 
 a {
   font-size: 20px;
   /*color: #5886a6;*/
   color: white;
-  font-family: Shadows Into Light, sans-serif, courier;
+  font-family: Shadows Into Light, sans-serif, serif;
   text-decoration: none;
   font-weight: lighter;
 }
