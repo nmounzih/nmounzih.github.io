@@ -117,8 +117,9 @@ p {
 
 #resume{
   margin-bottom: 5%;
-  margin-top: 4%;
-  margin-left: 1%;
+  margin-top: 3%;
+  /*margin-left: 1%;*/
+  padding-left: 2%;
 }
 
 .header{
@@ -177,6 +178,14 @@ p {
   color: #3d3d3d;
 }
 
+.fa-github{
+  padding-left: 20%;
+}
+
+.fa-envelope{
+  padding-left: 20%;
+}
+
 a {
   /*font-size: 20px;*/
   /*color: #5886a6;*/
@@ -198,16 +207,24 @@ a:active{
 
 
 button {
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   background-color: #6499be;
-  /*border: 1px solid #97b8ed;*/
-  font-size: 20px;
+  /*font-size: 20px;
   font-family: Shadows Into Light, sans-serif, serif;
-  font-weight: lighter;
+  font-weight: lighter;*/
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
 }
 
 button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);*/
+    background-color: #003366;
 }
 
 button:active {
