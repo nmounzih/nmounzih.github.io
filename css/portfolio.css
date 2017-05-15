@@ -75,6 +75,7 @@ p {
   display:flex;
   align-items: center;
   justify-content: center;
+  font-size: 50px;
 }
 
 #linkedIn{
@@ -168,25 +169,41 @@ p {
   padding-bottom: 50%;*/
 }
 
-a {
-  font-size: 20px;
-  /*color: #5886a6;*/
-  color: white;
-  font-family: Shadows Into Light, sans-serif, serif;
-  text-decoration: none;
-  font-weight: lighter;
+.fa {
+  color: gray;
 }
+
+.fa:hover{
+  color: #3d3d3d;
+}
+
+a {
+  /*font-size: 20px;*/
+  /*color: #5886a6;*/
+  /*color: white;*/
+  /*font-family: Shadows Into Light, sans-serif, serif;*/
+  text-decoration: none;
+  /*font-weight: lighter;*/
+}
+
+a:visited {
+    color: white;
+}
+
 
 a:active{
   /*color: #8fcaea;*/
   color: white;
 }
 
+
 button {
   border-radius: 4px;
   background-color: #6499be;
   /*border: 1px solid #97b8ed;*/
   font-size: 20px;
+  font-family: Shadows Into Light, sans-serif, serif;
+  font-weight: lighter;
 }
 
 button:hover {
