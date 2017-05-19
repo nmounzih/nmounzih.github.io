@@ -33,7 +33,7 @@
   width: 100%;
 }
 
-.topHalf{
+.aboutme{
   display: flex;
   flex-direction: row;
 }
@@ -48,7 +48,7 @@
 }
 
 
-#welcome{
+#name{
   text-align: center;
   color: #5886a6;
   font-size: 60px;
@@ -56,7 +56,7 @@
   font-weight: lighter;
 }
 
-#backend{
+#juniordeveloper{
   color: #5886a6;
   margin-top: -2%;
   font-size: 22px;
@@ -97,28 +97,20 @@ p {
   padding-left: 7px;
 }
 
-.bottomHalf{
-  display: flex;
-  background-color: white;
-  /*opacity: 0.8; Opacity not working because wont override .background*/
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-/*
 .projects{
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  min-height: 50%;
   width: 100%;
-  justify-content: space-around;
-  margin: 20%;
-  align-content: space-between;
-}*/
+}
+
 
 #resume{
   margin-bottom: 5%;
   margin-top: 3%;
-  /*margin-left: 1%;*/
   padding-left: 2%;
 }
 
@@ -128,16 +120,29 @@ p {
   font-weight: bold;
   color: #5886a6;
   font-weight: lighter;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
   /*margin-left: -150%;
   margin-right: -150%;*/
   /*padding-top: 10%;*/
   /*padding-bottom: 25%;*/
 }
 
+#projectHeader{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.projectItems{
+  display: flex;
+  flex-direction: row;
+}
+
 #questionBox{
-  border-top: 2px solid #e8eaed;
+  border: 2px solid #e8eaed;
   font-family: sans-serif, serif;
-  color: #5886a6;
+  color: black;
   font-size: 25px;
   font-weight: lighter;
   /*margin-left: -150%;
@@ -147,9 +152,9 @@ p {
 }
 
 #masterpeace{
-  border-top: 2px solid #e8eaed;
+  border: 2px solid #e8eaed;
   font-family: sans-serif, serif;
-  color: #5886a6;
+  color: black;
   font-size: 25px;
   font-weight: lighter;
   /*margin-left: -150%;
@@ -159,15 +164,19 @@ p {
 }
 
 #craigslist{
-  border-top: 2px solid #e8eaed;
+  border: 2px solid #e8eaed;
   font-family: sans-serif, serif;
-  color: #5886a6;
+  color: black;
   font-size: 25px;
   font-weight: lighter;
   /*margin-left: -150%;
   margin-right: -150%;*/
   /*padding-top: 50%;
   padding-bottom: 50%;*/
+}
+
+p.projectInfo{
+  font-size: 15px;
 }
 
 .fa {
@@ -187,16 +196,23 @@ p {
 }
 
 a {
-  /*font-size: 20px;*/
-  /*color: #5886a6;*/
-  /*color: white;*/
-  /*font-family: Shadows Into Light, sans-serif, serif;*/
   text-decoration: none;
-  /*font-weight: lighter;*/
 }
 
-a:visited {
-    color: white;
+a.projectlink{
+  color: #8BBED8;
+}
+
+a.resumelink{
+  color: white;
+}
+
+a.resumelink:visited{
+  color: white;
+}
+
+a.projectlink:visited {
+    color: #8BBED8;
 }
 
 

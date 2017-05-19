@@ -11,26 +11,26 @@
   </head>
   <body class='citySkyline'>
     <div id='intro'>
-      <p id='welcome'>Nadia Mounzih</p>
-      <p id='backend'>Junior Developer</p>
+      <p id='name'>Nadia Mounzih</p>
+      <p id='juniordeveloper'>Junior Developer</p>
     </div>
     <div class='background'>
-      <div class='topHalf'>
-      <div id='picDiv'><img title='UC Santa Barbara' id='actualPic' src="http://i.imgur.com/olJLAXS.jpg" title="source: imgur.com" />
+      <div class='aboutme'>
+      <div id='picDiv'><img title='UC Santa Barbara' id='actualPic' src="http://i.imgur.com/olJLAXS.jpg" />
       </div>
       <div id='bio'>
         <!-- <p id='welcome'>nadia mounzih</p> -->
         <div id='socials'>
-          <a href="https://www.linkedin.com/in/nadia-mounzih-4736b1b2/">
+          <a title='LinkedIn' href="https://www.linkedin.com/in/nadia-mounzih-4736b1b2/">
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
           </a>
-        <a href="https://github.com/nmounzih">
+        <a title='GitHub' href="https://github.com/nmounzih">
           <i class="fa fa-github" aria-hidden='true'></i>
         </a>
-        <a href="mailto:mounzih.nadia@gmail.com">
+        <a title='Email me!' href="mailto:mounzih.nadia@gmail.com">
           <i class="fa fa-envelope" aria-hidden="true"></i>
         </a>
-        <p id='resume'><button type='button'><a href='https://docs.google.com/viewer?url=nmounzih.github.io/nadia_mounzih_resume.pdf'>resume</a></button></p>
+        <p id='resume'><button type='button'><a class='resumelink' href='https://docs.google.com/viewer?url=nmounzih.github.io/nadia_mounzih_resume.pdf'>resume</a></button></p>
       </div>
         <p class='header'>About Me</p>
         <p>Hi, I'm Nadia. I'm interested in logic puzzles, going for runs, being outside, learning new technologies, and mimosa brunch. Not necessarily in that order.</p>
@@ -39,14 +39,21 @@
     </div>
   </div>
   </div>
-  <div class='bottomHalf'>
-        <!-- <div id='projects'> -->
-          <!-- <p id='projectsHeader'>Projects</p>
-          <div id='masterpeace'><a href='https://masterpeace.herokuapp.com/'>Masterpeace</a></div>
-          <div id='questionBox'><a href='https://quiet-retreat-14165.herokuapp.com/login/'>Question Box</a></div>
-        <div id='craigslist'><a href='https://github.com/nmounzih/craigslist-clone'>craigslist</a></div> -->
-    <!-- </div> -->
+  <div class='projects'>
+          <p class='header' id='projectHeader'>Projects</p>
+          <div class='projectItems'>
+          <div id='masterpeace'><a class='projectlink' href='https://masterpeace.herokuapp.com/'>Masterpeace</a>
+            <p class='projectInfo'>Masterpeace was our capstone project at the Iron Yard. It is a digital art gallery as well as a social media for artists to share their work in a positive environment. Check us out on Heroku! Code is on my GitHub.</p>
+          </div>
+          <div id='questionBox'><a class='projectlink' href='https://quiet-retreat-14165.herokuapp.com/login/'>Question Box</a>
+            <p class='projectInfo'>Question Box is a clone of the popular site StackOverflow. This was a group project done at the Iron Yard. Sign up and you can ask or answer a question, as well as upvote and downvote questions and answers. Check it out on Heroku! Code is on my GitHub.</p>
+          </div>
+        <div id='craigslist'><a class='projectlink' href='https://github.com/nmounzih/craigslist-clone'>craigslist</a>
+          <p class='projectInfo'>Craiglist was my first ever Django web app. I like to look back at this code and see how far I've come. This app is a clone of Craigslist. You can post an add, see all your posts, and search posts filtered by subcategory.</p>
+        </div>
+      </div>
   </div>
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src='js/portfolio.js'></script>
