@@ -128,6 +128,11 @@ p {
   /*padding-top: 10%;*/
   /*padding-bottom: 25%;*/
 }
+#aboutMeWords{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 #projectHeader{
   padding-top: 3%;
